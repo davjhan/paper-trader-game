@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+/.svelte-kit
+/build
+/functions
+.idea/*
+.yalc/*
+# Local Netlify folder
+.netlify
+static/questions.json

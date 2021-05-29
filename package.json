@@ -1,0 +1,27 @@
+{
+  "name": "davjhan-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "deploy:dry": "npm run build && netlify deploy",
+    "deploy": "npm run build && netlify deploy --prod"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-netlify": "^1.0.0-next.14",
+    "@sveltejs/adapter-static": "^1.0.0-next.11",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
+    "postcss": "^8.3.0",
+    "postcss-load-config": "^3.0.1",
+    "svelte": "^3.38.2",
+    "svelte-preprocess": "^4.7.3",
+    "tailwindcss": "^2.1.2",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2"
+  },
+  "type": "module",
+  "dependencies": {}
+}
