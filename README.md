@@ -11,7 +11,7 @@ This template uses
 
 1. Update the project name in `package.json`
 2. Update the page title in index.html
-3. Do `yalc link davjhan-core` to link davjhan-core common resources.
+3. Do `yalc link davjhan-core` then `yalc update` to link davjhan-core common resources.
 3. `npx npm-check-updates -u` to upgrade dependencies to latest.
 
 # Running
