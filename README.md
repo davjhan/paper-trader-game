@@ -6,7 +6,7 @@ This template uses
 
 - Sveltekit
 - TailwindCSS
-
+- And has a dependency on [davjhan-core](https://github.com/davjhan/davjhan-core)
 # Setup Checklist
 
 1. Update the project name in `package.json`
