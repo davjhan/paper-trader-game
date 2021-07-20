@@ -5,7 +5,8 @@
     "lib": [
       "es2020"
     ],
-    "target": "es2019",
+    "types": ["svelte"],
+    "target": "es2020",
     /**
         svelte-preprocess cannot figure out whether you have a value or a type, so tell TypeScript
         to enforce using \`import type\` instead of \`import\` for Types.

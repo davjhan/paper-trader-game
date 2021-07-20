@@ -1,8 +1,10 @@
 {
-  "name": "davjhan-project-template",
+  "name": "stocks-game",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "init": "yalc link davjhan-core",
+    "dev": "TAILWIND_MODE=watch svelte-kit dev",
+    "dev:host": "TAILWIND_MODE=watch svelte-kit dev --host",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "deploy:dry": "npm run build && netlify deploy",
@@ -12,17 +14,22 @@
     "@sveltejs/adapter-netlify": "^1.0.0-next.14",
     "@sveltejs/adapter-static": "^1.0.0-next.11",
     "@sveltejs/kit": "next",
-    "autoprefixer": "^10.2.6",
-    "cssnano": "^5.0.5",
-    "postcss": "^8.3.0",
-    "postcss-load-config": "^3.0.1",
-    "svelte": "^3.38.2",
-    "svelte-preprocess": "^4.7.3",
-    "tailwindcss": "^2.1.2",
-    "tslib": "^2.2.0",
-    "typescript": "^4.3.2",
-    "carbon-icons-svelte": "^10.28.0"
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
+    "postcss-load-config": "^3.1.0",
+    "svelte": "^3.38.3",
+    "svelte-preprocess": "^4.7.4",
+    "tailwindcss": "^2.2.4",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
   },
   "type": "module",
-  "dependencies": {}
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.1",
+    "chart.js": "^3.4.1",
+    "chartjs-adapter-luxon": "^1.0.0",
+    "chartjs-plugin-streaming": "^2.0.0",
+    "davjhan-core": "file:.yalc/davjhan-core"
+  }
 }

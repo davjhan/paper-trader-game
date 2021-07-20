@@ -29,11 +29,12 @@ const config = {
             },
             server: {
                 host: '0.0.0.0',
-                watch: {
-                    followSymlinks: true
+                watch:{
+                    followSymlinks:true
                 }
-            }
-        }
+            },
+
+        },
     },
 }
 
