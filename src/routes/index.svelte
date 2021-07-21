@@ -4,6 +4,7 @@
 
 </script>
 <script>
+    import CheckoutOtherProjects from '../components/CheckoutOtherProjects.svelte'
     import StockGraphView from '../components/StockGraphView.svelte'
     import { goto } from '$app/navigation'
     import { PaperTradingGame } from '../logic/game'
@@ -35,4 +36,5 @@
         <StockGraphView priceData={exampleGame.priceData} holdsPosition={true}/>
     </div>
     <button class='reg mt-4 ' on:click={()=>goto('/game')}>Start Game</button>
+    <CheckoutOtherProjects class='mt-12'/>
 </main>

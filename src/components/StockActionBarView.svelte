@@ -45,8 +45,9 @@
                 Buy
             </button>
         {:else}
-            <button class='reg flex-grow inline-flex  justify-center items-center animate-throb '
+            <button class='reg flex-grow inline-flex  justify-center items-center  '
                     on:click={()=>PaperTradingGame.sellAll($game)}
+                    class:animate-throb={!isGameOver}
                     disabled={isGameOver}>
                 <SubtractAlt class='mr-1 transition-transform'/>
                 Sell
