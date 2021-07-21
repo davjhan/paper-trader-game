@@ -14,7 +14,7 @@ export module StockPriceChart {
 		})
 
 //		const grad = svg.rect(+svg.width(),+svg.height()).fill(gradient).fill(gradient)
-//		const shape = svg.polygon(data.concat([[priceData.length + 1, 0]])).stroke({ color: 'green', width: 2 }).fill(gradient)
+//		const shape = svg.polygon(data.concat([[priceChartData.length + 1, 0]])).stroke({ color: 'green', width: 2 }).fill(gradient)
 //		grad.maskWith(shape)
 		const topLine = svg.polyline(data).stroke({ color: 'green', width: 2 }).fill('none')
 		return [topLine]

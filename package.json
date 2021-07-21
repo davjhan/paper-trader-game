@@ -1,5 +1,5 @@
 {
-  "name": "stocks-game",
+  "name": "paper-trader",
   "version": "0.0.1",
   "scripts": {
     "init": "yalc link davjhan-core",

@@ -1,4 +1,4 @@
-export module BeanCoinGame {
+export module PaperTradingGame {
 	export const tickLength = 1000
 	export function newGame(
 		playerName: string,
@@ -66,9 +66,9 @@ export module BeanCoinGame {
 
 	function generatePriceData(): number[] {
 		let lastPrice = 10
-		const maxRise = 0.05
+		const maxRise = 0.03
 		const maxFall = 0.02
-		return Array.from({ length: 400 }, (x, i) => {
+		return Array.from({ length: 90 }, (x, i) => {
 			if (i == 0) return lastPrice
 			lastPrice += lastPrice * ((Math.random() * (maxRise + maxFall)) - maxFall)
 			lastPrice = Math.max(0, lastPrice)
@@ -76,12 +76,12 @@ export module BeanCoinGame {
 		})
 	}
 }
-export module BeanCoinUtils {
+export module PaperTradingUtils {
 	export function playerAccountValue(player: PlayerState, pricePerShare: number): number {
 		return player.cash + player.shares * pricePerShare
 	}
 
-	export function priceMovementPercentage(game: BeanCoinGameState): number {
+	export function priceMovementPercentage(game: { tick:number, priceData:number[] }): number {
 		if (game.tick === 0) return 0
 		return percentChange(game.priceData[game.tick - 1], game.priceData[game.tick])
 	}

@@ -8,7 +8,7 @@
         overscroll-behavior: none;
     }
 </style>
-<div class="container max-w-screen-sm md:border-l md:border-r md:h-screen md:box-content border-gray-100 bg-background">
-    <Navbar subPath='New Project'/>
+<div class="container max-w-screen-md md:border-l md:border-r md:h-screen md:box-content border-gray-100 bg-background">
+    <Navbar subPath='Paper Trader'/>
     <slot/>
 </div>
