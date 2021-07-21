@@ -1,33 +1,45 @@
-# About
+# Paper Trader Game
 
-This is a starter template for davjhan.com sveltekit projects.
+Made by : **David Han @davjhan** (https://davjhan.com/)
 
-This template uses
+### [Play the game on your browser](https://paper-trader.davjhan.com/)
+(https://paper-trader.davjhan.com/)
+# Built with
+- [`Svelte Kit`](https://kit.svelte.dev/)
+- Tailwind CSS (JIT)
+- Netlify
+- Uses Plausible analytics (cookie-less)
 
-- Sveltekit
-- TailwindCSS
+Generates a static site that is hosted on Netlify.
 
-# Setup Checklist
+# Get Started
 
-1. Update the project name in `package.json`
-2. Update the page title in index.html
-3. Do `yalc link davjhan-core` then `yalc update` to link davjhan-core common resources.
-3. `npx npm-check-updates -u` to upgrade dependencies to latest.
+⚠️ This repo will not build out of the box. It has a dependency on [davjhan-core](https://github.
+com/davjhan/davjhan-core)
+which is not published on npm. If you want to build this project, follow the steps in that package's README.
 
-# Running
+`davjhan-core` includes common tailwind styles, css, and components (e.g. Navbar) that will be reused between david
+games. I use `yalc link davjhan-core` on my local machine so that it builds.
 
-### Dev server
+# Commands
+### Run the dev server
 ```bash
 npm run dev
 ```
 
-### Deploy
+### Download the questions.json from Airtable database
+```bash
+npm run download-questions
+```
+
+### Build and preview
+```bash
+npm run build
+```
+```bash
+npm run preview
+```
+### Deploy to Netlify
 ```bash
 npm run deploy
 ```
-
-# Gameplay
-
-Players can create a single player game, or host a room to play with other people.
-When the game starts, the stock price will move up an down. The player can press buy (all) or sell (all) stock at any 
-given tick. After 60 seconds, you will see a score of how much money you ended up with.
