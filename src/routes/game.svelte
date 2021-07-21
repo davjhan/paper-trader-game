@@ -19,12 +19,7 @@
 	onDestroy(() => clearInterval(gameLoop))
 
 </script>
-<style>
-    /*:global(body) {*/
-    /*    overflow: auto;*/
-    /*    overscroll-behavior: none;*/
-    /*}*/
-</style>
+
 <main class='p-4 flex flex-col '>
     <div class="sticky">
         <PlayerHudView {game}/>
