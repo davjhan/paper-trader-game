@@ -20,10 +20,10 @@
 
 </script>
 <style>
-    :global(body) {
-        overflow: auto;
-        overscroll-behavior: none;
-    }
+    /*:global(body) {*/
+    /*    overflow: auto;*/
+    /*    overscroll-behavior: none;*/
+    /*}*/
 </style>
 <main class='p-4 flex flex-col '>
     <div class="sticky">
