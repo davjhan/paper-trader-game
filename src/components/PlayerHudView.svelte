@@ -24,8 +24,6 @@
 		animatedPlayerCash.set(playerAccountBalance)
 		playerAccountBalance = PaperTradingUtils.playerAccountValue($game.player, $game.priceData[$game.tick])
 		deltaPlayerAccountBalance = PaperTradingUtils.percentChange(lastPlayerAccountBalance, playerAccountBalance)
-
-		console.log(`deltaPlayerAccountBalance`, lastPlayerAccountBalance, playerAccountBalance)
 		flashColor = deltaPlayerAccountBalance > 0 ? green : red
 		lastPlayerAccountBalance = playerAccountBalance
 	}

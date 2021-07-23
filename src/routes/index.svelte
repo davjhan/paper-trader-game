@@ -35,7 +35,7 @@
     </div>
     <h1 class='mt-4 mb-1 self-center'>Paper Trading Game</h1>
     <h4 class='mb-8 self-center text-sm'>(Duration: 90s)</h4>
-    <button class='reg my-4 self-center w-40' on:click={()=>goto('/game')}>Start Game</button>
+    <button class='reg my-4 self-center w-40 animate-throb' on:click={()=>goto('/game')}>Start Game</button>
 
     <span class='mb-2 font-semibold text-gray-500'>How to play</span>
     <ol class='mb-4 ml-2 list-decimal list-inside'>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
->
-    <title>Drag Handle</title>
-    <g id="Drag-Handle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M16.0013357,1.50503558 C23.2462771,9.70257199 27,15.8506471 27,20 C27,23.0375661 25.7687831,25.7875661 23.7781746,27.7781746 C21.7875661,29.7687831 19.0375661,31 16,31 C12.9624339,31 10.2124339,29.7687831 8.22182541,27.7781746 C6.23121694,25.7875661 5,23.0375661 5,20 C5,15.8503853 8.75419661,9.70179615 16.0013357,1.50503558 Z"
-              stroke="#000000" stroke-width="2" fill="#FFD803"></path>
-    </g>
-</svg>
