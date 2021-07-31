@@ -67,8 +67,8 @@ export module PaperTradingGame {
 
 	const maxRise = 0.07
 	const bullProb = 0.6
-	const marketSentimentVals = [-8, -1, 1]
-	const marketSentimentProbs = [0.1, 0.2, 1]
+	const marketSentimentVals = [-7, -1, 1,3]
+	const marketSentimentProbs = [0.1, 0.2, 0.8, 1]
 	const numTurns = 30
 	/**
 	 * Generates price data by calculating a 0%..7% movement magnitude multiplied by the "market sentiment",

@@ -2,6 +2,11 @@
     import { Navbar } from 'davjhan-core'
     import 'davjhan-core/src/style.css'
 </script>
+<script context="module">
+
+    export const prerender = true
+
+</script>
 <style>
     /*:global(body) {*/
     /*    overflow: hidden;*/

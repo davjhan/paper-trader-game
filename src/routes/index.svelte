@@ -17,17 +17,13 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </svelte:head>
 <style>
-    /*:global(body) {*/
-    /*    overflow: auto;*/
-    /*    overscroll-behavior: none;*/
-    /*}*/
     button {
         touch-action: manipulation;
     }
 </style>
 <main class='p-4 flex flex-col '>
     <div class="inline-flex items-start mt-2 self-end ">
-        <a href={github} class='ml-1 mr-2 underline text-gray-dark text-sm'>Github</a>
+        <a href={github} class='ml-1 mr-2 underline text-gray-dark text-sm'>Source Code (Github)</a>
         <!-- Place this tag where you want the button to render. -->
         <!-- Place this tag where you want the button to render. -->
         <a class="github-button" href={github}  data-show-count="true"

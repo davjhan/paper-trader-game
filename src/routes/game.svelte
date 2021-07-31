@@ -17,7 +17,6 @@
 	const gameLoop = PaperTradingGame.startGame(gameState)
 
 	onDestroy(() => clearInterval(gameLoop))
-
 </script>
 
 <main class='p-4 flex flex-col '>
@@ -33,7 +32,4 @@
         <StockGraphView {holdsPosition} tick={$game.tick} priceData={$game.priceData} class='mt-4'/>
         <StockActionBarView {game}/>
     </div>
-
-
-
 </main>
