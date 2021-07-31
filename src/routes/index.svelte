@@ -34,7 +34,7 @@
            aria-label="Star davjhan/guess-the-year-game on GitHub">Star</a>
     </div>
     <h1 class='mt-4 mb-1 self-center'>Paper Trading Game</h1>
-    <h4 class='mb-8 self-center text-sm'>(Duration: 90s)</h4>
+    <h4 class='mb-8 self-center text-sm'>(Duration: 45s)</h4>
     <button class='reg my-4 self-center w-40 animate-throb' on:click={()=>goto('/game')}>Start Game</button>
 
     <span class='mb-2 font-semibold text-gray-500'>How to play</span>
@@ -44,7 +44,7 @@
             stock.
         </li>
         <li>
-            Make as much money as you can in <b>90 seconds</b>.
+            Make as much money as you can in <b>45 seconds</b>.
         </li>
     </ol>
     <span class='italic mb-2 font-semibold text-gray-500'>Example:</span>
