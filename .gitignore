@@ -9,3 +9,5 @@ node_modules
 static/questions.json
 .DS_Store
 yalc.lock
+.svelte-kit
+.pnpm-debug.log
