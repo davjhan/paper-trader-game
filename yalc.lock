@@ -2,7 +2,8 @@
   "version": "v1",
   "packages": {
     "davjhan-core": {
-      "signature": "5e624b7372e935c79cd60dd54ba32f0b"
+      "signature": "bc7d87d7de7c92f01e485c5558a5f034",
+      "file": true
     }
   }
 }

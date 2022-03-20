@@ -13,7 +13,7 @@
     /*    overscroll-behavior: none;*/
     /*}*/
 </style>
-<div class="container max-w-screen-md md:border-l md:border-r md:h-screen md:box-content border-gray-100 bg-background">
+<div class="container mx-auto max-w-screen-md md:border-l md:border-r md:h-screen  border-gray-100 bg-background">
     <Navbar subPath='Paper Trader'/>
     <slot/>
 </div>

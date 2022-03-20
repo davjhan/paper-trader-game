@@ -1,6 +1,6 @@
 # Paper Trader Game
 
-![Banner](static/paper-trader-game%20cover.png?raw=true)
+![Banner](static/Paper-trader-cover.png?raw=true)
 
 Made by : **David Han @davjhan** (https://davjhan.com/)
 
